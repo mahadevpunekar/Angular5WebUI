@@ -1,0 +1,113 @@
+
+<header id="header">
+  <!-- Top header bar -->
+  <div id="topHeader">
+    <div class="wrapper">
+      <div class="top_nav">
+        <div class="container">
+          <div class="left">
+            <ul>
+              <li>
+                <a>An ISO 9xxx:2xxx Certified Company</a>
+              </li>
+              <li>
+                <a>
+                  <i class="fa fa-envelope"></i> abcsd@god.com</a>
+              </li>
+              <li>
+                <a>
+                  <i class="fa fa-phone-square"></i> +91-9922991407</a>
+              </li>
+            </ul>
+          </div>
+          <!-- end left links -->
+
+          <div class="right">
+            <ul>
+              <li class="link">
+                <a class="fancybox fancybox.ajax" [routerLink]="['/login']" (click)="onLoggedout()">Login</a>
+              </li>
+              <li class="link">
+                <a class="fancybox fancybox.ajax" href="#">Register</a>
+              </li>
+              <li>
+                <a href="#" target="_blank">
+                  <i class="fa fa-facebook"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#" target="_blank">
+                  <i class="fa fa-twitter"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fa fa-google-plus"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#" target="_blank">
+                  <i class="fa fa-linkedin"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#" target="_blank">
+                  <i class="fa fa-youtube"></i>
+                </a>
+              </li>
+            </ul>
+
+          </div>
+          <!-- end right social links -->
+
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <!-- end top navigation -->
+
+  <div id="trueHeader">
+    <div class="wrapper">
+      <div class="container">
+        <!-- Logo -->
+        <div class="logo">
+          <a routerLink="/home">
+            <!-- <img src="../../../../assets/images/mlogo.png" alt="logo"> -->
+            <h2>Company Logo</h2>
+          </a>
+        </div>
+        <!-- Start of Menu -->
+        <div class="menu_main">
+          <nav class="navbar nav_menu">
+            <button class="navbar-toggler" type="button" (click)="toggleSidebar()">
+              <i class="fa fa-bars text-muted" aria-hidden="true"></i>
+            </button>
+            <ul class="nav navbar-nav main_menu">
+              <li class="">
+                <a routerLink="/home" [routerLinkActive]="['router-link-active']" data-toggle="dropdown" class="dropdown-toggle">Home</a>
+                <ul class="dropdown-menu" role="menu">
+                  <li>
+                    <a href="#">dsfsfs</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="">
+                <a routerLink="/blank-page" [routerLinkActive]="['router-link-active']" data-toggle="dropdown" class="dropdown-toggle">About US</a>
+                <ul class="dropdown-menu" role="menu">
+                  <li>
+                    <a href="#">dsfsdfsfs</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="">
+                <a routerLink="/blank-page" [routerLinkActive]="['router-link-active']">Contact US</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <!-- End of Menu -->
+      </div>
+    </div>
+  </div>
+</header>
