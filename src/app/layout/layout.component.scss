@@ -1,1 +1,49 @@
-
+.footer{
+    width: 100%;
+    padding: 57px 0px;
+    background-color: #181818;
+    color: #fff;
+}
+.copyright_info {
+  float: left;
+  padding: 27px 0px 25px 0px;
+  margin: 0px 0px 0px 0px;
+  width: 100%;
+  color: #999;
+  font-size: 12px;
+  color: #999;
+  font-style: normal;
+  font-weight: normal;
+  background: #303030;
+}
+.one_half {
+  width: 48%;
+}
+.one_half, .one_third, .one_fourth, .two_third, .three_fourth, .one_fifth {
+  position: relative;
+  margin-right: 4%;
+  float: left;
+}
+.last {
+  margin-right: 0 !important;
+  clear: right;
+}
+ul.footer_social_links {
+  float: right;
+  padding: 0px;
+  margin: 0px 0px 0px 0px;
+}
+.footer_social_links li {
+  float: left;
+  padding: 0px;
+  list-style: none;
+  margin: 0px 0px 0px 5px;
+  width: 24px;
+  height: 24px;
+  text-align: center;
+  border-radius: 24px;
+  line-height: 22px;
+  vertical-align: middle;
+  background-color: #595959;
+  color: #fff;
+}

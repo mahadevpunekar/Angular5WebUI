@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HttpClientModule } from '@angular/common/http';
+import { ModalModule } from 'ngx-bootstrap';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -19,6 +20,7 @@ import { AuthGuard } from './shared';
     CommonModule,
     BrowserAnimationsModule,
     HttpClientModule,
+    ModalModule.forRoot(),
     AppRoutingModule
   ],
   providers: [AuthGuard],
